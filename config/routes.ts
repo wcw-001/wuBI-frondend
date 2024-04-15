@@ -23,10 +23,16 @@ export default [
     ],
   },
   {
-    path: '/welcome',
-    name: 'welcome',
-    icon: 'smile',
-    component: './Welcome',
+    path: '/add_chart',
+    name: '智能分析',
+    icon: 'bulbTwoTone',
+    component: './AddChart',
+  },
+  {
+    path: '/my_chart',
+    name: '我的图表',
+    icon: 'pieChartTwoTone',
+    component: './MyChart',
   },
   {
     path: '/admin',
@@ -53,7 +59,7 @@ export default [
   },
   {
     path: '/',
-    redirect: '/welcome',
+    redirect: '/add_chart',
   },
   {
     path: '*',
